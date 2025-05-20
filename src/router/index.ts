@@ -3,6 +3,9 @@ import { createWebHistory, createRouter } from "vue-router";
 import Inicio from "@/views/InicioView.vue";
 import Cursos from "@/views/CursosView.vue";
 import Categorias from "@/views/CategoriasView.vue";
+import Curso from "@/views/CursoView.vue";
+import Categoria from "@/views/CategoriaView.vue";
+
 
 const router = createRouter({
     history:createWebHistory(),
@@ -27,7 +30,7 @@ const router = createRouter({
             name:'categorias',
             component:Categorias
         },
-        /*{
+        {
             path:'/cursos/:id',
             name:'curso-agregar-editar',
             component:Curso
@@ -38,7 +41,7 @@ const router = createRouter({
             component:Categoria,
             props:true
         },
-        {
+        /*{
             path:'/404',
             name:'notfound',
             component:NotFound
