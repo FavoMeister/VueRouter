@@ -1,12 +1,12 @@
 <script setup lang="ts">
-
+import NavBarApp from './components/NavBarApp.vue';
+import FooterApp from './components/FooterApp.vue';
 </script>
 
 <template>
-  <main>
-    <h1>Hole Vue</h1>
-    <RouterView/>
-  </main>
+  <NavBarApp />
+  <RouterView/>
+  <FooterApp />
 </template>
 
 <style scoped></style>
