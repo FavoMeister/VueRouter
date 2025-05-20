@@ -5,6 +5,7 @@ import Cursos from "@/views/CursosView.vue";
 import Categorias from "@/views/CategoriasView.vue";
 import Curso from "@/views/CursoView.vue";
 import Categoria from "@/views/CategoriaView.vue";
+import NotFound from "@/views/NotFoundView.vue";
 
 
 const router = createRouter({
@@ -41,11 +42,11 @@ const router = createRouter({
             component:Categoria,
             props:true
         },
-        /*{
+        {
             path:'/404',
             name:'notfound',
             component:NotFound
-        },*/
+        },
         {
             path:'/:catchAll(.*)',
             redirect:'/404'

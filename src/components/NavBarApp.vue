@@ -17,9 +17,9 @@
                 <li class="nav-item">
                     <RouterLink class="nav-link" :to="{name:'categorias'}" >Categorías</RouterLink>
                 </li>       
-                <!-- <li class="nav-item">
+                <li class="nav-item">
                     <RouterLink class="nav-link" to="/courses" >Courses</RouterLink>
-                </li> -->
+                </li>
                 </ul>
             </div>
         </div>
